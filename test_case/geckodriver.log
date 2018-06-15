@@ -1,0 +1,401 @@
+1511515497862	geckodriver	INFO	geckodriver 0.18.0
+1511515497871	geckodriver	INFO	Listening on 127.0.0.1:52073
+1511515499985	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511515500273	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511515500872	Marionette	INFO	Enabled via --marionette
+[Parent 14264] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511515502964	Marionette	INFO	Listening on port 52087
+1511515503102	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511515503162	Marionette	DEBUG	Register listener.js for window 4294967297
+[Child 14080] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15528] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+rned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511515526428	Marionette	INFO	Enabled via --marionette
+[Child 10840] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10840] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511515528659	Marionette	INFO	Listening on port 52173
+1511515528731	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511515528800	Marionette	DEBUG	Register listener.js for window 4294967297
+1511515528902	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511515529498	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511515529498	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1511515529932	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1511515530000	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97&json=1&p=3&sid=1420_21108_17001_25177_20718&req=2&csor=1&cb=jQuery1102009815499114971671_1511515529769&_=1511515529771, line 1: TypeError: jQuery1102009815499114971671_1511515529769 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97%E5%AD%90&json=1&p=3&sid=1420_21108_17001_25177_20718&req=2&csor=2&pwd=%E6%A0%97&cb=jQuery1102009815499114971671_1511515529769&_=1511515529772, line 1: TypeError: jQuery1102009815499114971671_1511515529769 is not a function
+1511515530442	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511515532451	Marionette	INFO	New connections will no longer be accepted
+1511515628597	geckodriver	INFO	geckodriver 0.18.0
+1511515628607	geckodriver	INFO	Listening on 127.0.0.1:52449
+1511515630672	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511515630975	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511515631582	Marionette	INFO	Enabled via --marionette
+[Child 15296] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15296] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511515633592	Marionette	INFO	Listening on port 52458
+1511515633794	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511515633850	Marionette	DEBUG	Register listener.js for window 4294967297
+1511515633908	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511515634344	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511515634344	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1511515634715	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1511515634798	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97&json=1&p=3&sid=1432_21085_25178_22157&req=2&csor=1&cb=jQuery1102011746492242707163_1511515634554&_=1511515634556, line 1: TypeError: jQuery1102011746492242707163_1511515634554 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97%E5%AD%90&json=1&p=3&sid=1432_21085_25178_22157&req=2&csor=2&pwd=%E6%A0%97&cb=jQuery1102011746492242707163_1511515634554&_=1511515634557, line 1: TypeError: jQuery1102011746492242707163_1511515634554 is not a function
+1511515635245	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511515637331	Marionette	INFO	New connections will no longer be accepted
+[Parent 16324] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511515953171	geckodriver	INFO	geckodriver 0.18.0
+1511515953179	geckodriver	INFO	Listening on 127.0.0.1:53096
+1511515955262	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511515955684	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511515956283	Marionette	INFO	Enabled via --marionette
+[Child 13780] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13780] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511515958303	Marionette	INFO	Listening on port 53104
+1511515958389	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511515958447	Marionette	DEBUG	Register listener.js for window 4294967297
+1511515958528	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511515959443	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511515959443	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1511515959724	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1511515959827	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97&json=1&p=3&sid=1469_21109_18559_17001_25178_25146_20929&req=2&csor=1&cb=jQuery110205700394543775211_1511515959603&_=1511515959605, line 1: TypeError: jQuery110205700394543775211_1511515959603 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97%E5%AD%90&json=1&p=3&sid=1469_21109_18559_17001_25178_25146_20929&req=2&csor=2&pwd=%E6%A0%97&cb=jQuery110205700394543775211_1511515959603&_=1511515959606, line 1: TypeError: jQuery110205700394543775211_1511515959603 is not a function
+1511515960237	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511515962248	Marionette	INFO	New connections will no longer be accepted
+1511516129614	geckodriver	INFO	geckodriver 0.18.0
+1511516129621	geckodriver	INFO	Listening on 127.0.0.1:53470
+1511516131687	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511516131953	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511516132471	Marionette	INFO	Enabled via --marionette
+[Parent 6108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 15352] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511516134536	Marionette	INFO	Listening on port 53480
+1511516134810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511516134860	Marionette	DEBUG	Register listener.js for window 4294967297
+1511516134935	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511516135452	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511516135452	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1511516135797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1511516135862	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97&json=1&p=3&sid=1464_21093_18559_25178_20929&req=2&csor=1&cb=jQuery110207885571026868731_1511516135667&_=1511516135669, line 1: TypeError: jQuery110207885571026868731_1511516135667 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97%E5%AD%90&json=1&p=3&sid=1464_21093_18559_25178_20929&req=2&csor=2&pwd=%E6%A0%97&cb=jQuery110207885571026868731_1511516135667&_=1511516135670, line 1: TypeError: jQuery110207885571026868731_1511516135667 is not a function
+1511516136257	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511516138327	Marionette	INFO	New connections will no longer be accepted
+[Parent 6108] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1511516228706	geckodriver	INFO	geckodriver 0.18.0
+1511516228712	geckodriver	INFO	Listening on 127.0.0.1:53737
+1511516230789	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1511516231093	addons.xpi	WARN	Error parsing extensions state: [Exception... "Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [amIAddonManagerStartup.readStartupData]"  nsresult: "0x80520012 (NS_ERROR_FILE_NOT_FOUND)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm :: loadExtensionState :: line 1554"  data: no] Stack trace: loadExtensionState()@resource://gre/modules/addons/XPIProvider.jsm:1554 < getInstallState()@resource://gre/modules/addons/XPIProvider.jsm:1589 < checkForChanges()@resource://gre/modules/addons/XPIProvider.jsm:3109 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2188 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/omni.ja!/components/addonManager.js:65
+1511516231698	Marionette	INFO	Enabled via --marionette
+1511516233725	Marionette	INFO	Listening on port 53748
+1511516233909	Marionette	WARN	TLS certificate errors will be ignored for this session
+1511516233959	Marionette	DEBUG	Register listener.js for window 4294967297
+1511516234025	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1511516234465	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1511516234466	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1511516234773	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.baidu.com/"
+1511516234840	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.baidu.com/"
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97&json=1&p=3&sid=1462_21092_17001_25177_20718&req=2&csor=1&cb=jQuery110204533117574518274_1511516234622&_=1511516234624, line 1: TypeError: jQuery110204533117574518274_1511516234622 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0%97%E5%AD%90&json=1&p=3&sid=1462_21092_17001_25177_20718&req=2&csor=2&pwd=%E6%A0%97&cb=jQuery110204533117574518274_1511516234622&_=1511516234625, line 1: TypeError: jQuery110204533117574518274_1511516234622 is not a function
+1511516235237	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1511516237249	Marionette	INFO	New connections will no longer be accepted
+1528687642061	geckodriver	INFO	geckodriver 0.18.0
+1528687642113	geckodriver	INFO	Listening on 127.0.0.1:56654
+1528687644225	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528687662584	geckodriver::marionette	ERROR	Failed to kill browser process
+1528967868536	geckodriver	INFO	geckodriver 0.18.0
+1528967868543	geckodriver	INFO	Listening on 127.0.0.1:56458
+1528967870656	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528967873062	Marionette	INFO	Listening on port 56469
+1528967873776	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528969578535	geckodriver	INFO	geckodriver 0.18.0
+1528969578544	geckodriver	INFO	Listening on 127.0.0.1:60055
+1528969580650	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528969583034	Marionette	INFO	Listening on port 60064
+1528969583766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528971162215	geckodriver	INFO	geckodriver 0.18.0
+1528971162224	geckodriver	INFO	Listening on 127.0.0.1:62874
+1528971164377	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528971166852	Marionette	INFO	Listening on port 62882
+1528971167500	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973345152	geckodriver	INFO	geckodriver 0.18.0
+1528973345161	geckodriver	INFO	Listening on 127.0.0.1:51044
+1528973347239	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973349572	Marionette	INFO	Listening on port 51053
+1528973350361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973350442	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528973442037	geckodriver	INFO	geckodriver 0.18.0
+1528973442044	geckodriver	INFO	Listening on 127.0.0.1:51231
+1528973444180	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973446617	Marionette	INFO	Listening on port 51240
+1528973447311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973447404	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528973454015	geckodriver	INFO	geckodriver 0.18.0
+1528973454025	geckodriver	INFO	Listening on 127.0.0.1:51281
+1528973456143	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973458633	Marionette	INFO	Listening on port 51289
+1528973459265	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973459368	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528973494610	geckodriver	INFO	geckodriver 0.18.0
+1528973494618	geckodriver	INFO	Listening on 127.0.0.1:51371
+1528973496729	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973499116	Marionette	INFO	Listening on port 51383
+1528973499853	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973548114	geckodriver	INFO	geckodriver 0.18.0
+1528973548136	geckodriver	INFO	Listening on 127.0.0.1:51512
+1528973550225	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973552631	Marionette	INFO	Listening on port 51523
+1528973553340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973553431	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528973632039	geckodriver	INFO	geckodriver 0.18.0
+1528973632048	geckodriver	INFO	Listening on 127.0.0.1:51678
+1528973634158	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973636658	Marionette	INFO	Listening on port 51687
+1528973637277	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973701200	geckodriver	INFO	geckodriver 0.18.0
+1528973701207	geckodriver	INFO	Listening on 127.0.0.1:51842
+1528973703293	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973705673	Marionette	INFO	Listening on port 51851
+1528973706413	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973746005	geckodriver	INFO	geckodriver 0.18.0
+1528973746014	geckodriver	INFO	Listening on 127.0.0.1:51972
+1528973748084	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973750505	Marionette	INFO	Listening on port 51983
+1528973751210	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 7588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/c1528973877942	geckodriver	INFO	geckodriver 0.18.0
+1528973877949	geckodriver	INFO	Listening on 127.0.0.1:52258
+1528973880068	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528973882384	Marionette	INFO	Listening on port 52268
+1528973883186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528973998964	geckodriver	INFO	geckodriver 0.18.0
+1528973998971	geckodriver	INFO	Listening on 127.0.0.1:52514
+1528974001037	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528974003497	Marionette	INFO	Listening on port 52525
+1528974004160	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528974129784	geckodriver	INFO	geckodriver 0.18.0
+1528974129792	geckodriver	INFO	Listening on 127.0.0.1:52791
+1528974131898	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528974134255	Marionette	INFO	Listening on port 52800
+1528974135021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528974870408	geckodriver	INFO	geckodriver 0.18.0
+1528974870417	geckodriver	INFO	Listening on 127.0.0.1:54098
+1528974872538	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528974874995	Marionette	INFO	Listening on port 54107
+1528974875664	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528974983117	geckodriver	INFO	geckodriver 0.18.0
+1528974983126	geckodriver	INFO	Listening on 127.0.0.1:54352
+1528974985251	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528974987702	Marionette	INFO	Listening on port 54362
+1528974988372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975103640	geckodriver	INFO	geckodriver 0.18.0
+1528975103646	geckodriver	INFO	Listening on 127.0.0.1:54615
+1528975105725	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975108315	Marionette	INFO	Listening on port 54625
+1528975108852	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975172068	geckodriver	INFO	geckodriver 0.18.0
+1528975172080	geckodriver	INFO	Listening on 127.0.0.1:54791
+1528975174173	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975176633	Marionette	INFO	Listening on port 54801
+1528975177318	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975203280	geckodriver	INFO	geckodriver 0.18.0
+1528975203289	geckodriver	INFO	Listening on 127.0.0.1:54905
+1528975205384	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975207732	Marionette	INFO	Listening on port 54913
+1528975208508	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975473328	geckodriver	INFO	geckodriver 0.18.0
+1528975473335	geckodriver	INFO	Listening on 127.0.0.1:55424
+1528975475484	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975478051	Marionette	INFO	Listening on port 55435
+1528975478608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975539488	geckodriver	INFO	geckodriver 0.18.0
+1528975539495	geckodriver	INFO	Listening on 127.0.0.1:55597
+1528975541596	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975544103	Marionette	INFO	Listening on port 55607
+1528975544723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975655624	geckodriver	INFO	geckodriver 0.18.0
+1528975655631	geckodriver	INFO	Listening on 127.0.0.1:55822
+1528975657755	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975660217	Marionette	INFO	Listening on port 55832
+1528975660871	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975660956	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528975708234	geckodriver	INFO	geckodriver 0.18.0
+1528975708240	geckodriver	INFO	Listening on 127.0.0.1:55941
+1528975710338	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975712710	Marionette	INFO	Listening on port 55949
+1528975713461	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975713580	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528975893985	geckodriver	INFO	geckodriver 0.18.0
+1528975893994	geckodriver	INFO	Listening on 127.0.0.1:56291
+1528975896081	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975898515	Marionette	INFO	Listening on port 56304
+1528975899210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975972788	geckodriver	INFO	geckodriver 0.18.0
+1528975972797	geckodriver	INFO	Listening on 127.0.0.1:56497
+1528975974887	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975977278	Marionette	INFO	Listening on port 56509
+1528975978018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528975978137	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 185"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:185
+onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:201
+_middleware/</<()@resource://activity-stream/lib/Store.jsm:49
+Store/this[method]()@resource://activity-stream/lib/Store.jsm:28
+uninit()@resource://activity-stream/lib/Store.jsm:151
+uninit()@resource://activity-stream/lib/ActivityStream.jsm:300
+uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:73
+shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files%20(x86)/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:169
+callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4436
+observe()@resource://gre/modules/addons/XPIProvider.jsm:2287
+GeckoDriver.prototype.quit()@driver.js:3300
+despatch()@server.js:293
+execute()@server.js:267
+onPacket/<()@server.js:242
+onPacket()@server.js:241
+_onJSONObjectReady/<()@transport.js:500
+1528975988632	geckodriver	INFO	geckodriver 0.18.0
+1528975988639	geckodriver	INFO	Listening on 127.0.0.1:56555
+1528975990742	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528975993139	Marionette	INFO	Listening on port 56564
+1528975993862	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528976095916	geckodriver	INFO	geckodriver 0.18.0
+1528976095923	geckodriver	INFO	Listening on 127.0.0.1:56803
+1528976098017	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528976100563	Marionette	INFO	Listening on port 56813
+1528976101150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528976125870	geckodriver	INFO	geckodriver 0.18.0
+1528976125877	geckodriver	INFO	Listening on 127.0.0.1:56921
+1528976128001	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528976130461	Marionette	INFO	Listening on port 56932
+1528976131117	Marionette	WARN	TLS certificate errors will be ignored for this session
+1528976412706	geckodriver	INFO	geckodriver 0.18.0
+1528976412714	geckodriver	INFO	Listening on 127.0.0.1:57506
+1528976414840	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1528976417440	Marionette	INFO	Listening on port 57516
+1528976417960	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529028831470	geckodriver	INFO	geckodriver 0.18.0
+1529028831485	geckodriver	INFO	Listening on 127.0.0.1:60337
+1529028833738	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1529028837507	Marionette	INFO	Listening on port 60347
+1529028837901	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529041003524	geckodriver	INFO	geckodriver 0.18.0
+1529041003531	geckodriver	INFO	Listening on 127.0.0.1:49840
+1529041005754	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1529041008918	Marionette	INFO	Listening on port 49850
+1529041009384	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529041255730	geckodriver	INFO	geckodriver 0.18.0
+1529041255738	geckodriver	INFO	Listening on 127.0.0.1:50368
+1529041257964	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1529041261384	Marionette	INFO	Listening on port 50378
+1529041261608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529042350169	geckodriver	INFO	geckodriver 0.18.0
+1529042350176	geckodriver	INFO	Listening on 127.0.0.1:52446
+1529042352316	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1529042355568	Marionette	INFO	Listening on port 52456
+1529042355947	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529042375323	geckodriver	INFO	geckodriver 0.18.0
+1529042375330	geckodriver	INFO	Listening on 127.0.0.1:52549
+1529042377543	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1529042380665	Marionette	INFO	Listening on port 52559
+1529042380674	Marionette	WARN	TLS certificate errors will be ignored for this session
