@@ -4,8 +4,6 @@ __author__ = amy liu
 '''
 # coding = utf-8
 from page_obj.loginPage import LoginPage
-# from public.Mytest import Mytest
-from page_obj.HomePage import HomePage
 from test_case.test_HomePage import *
 
 
@@ -19,11 +17,7 @@ class loginTest(Mytest):
 
     def test_login(self):
 
-        # HomePageTest.test_Open_HomePage(self)
         HomePageTest.test_Open_loginWindow(self)
-
-        # HomePage.goHomePage(self)
-        # HomePage.open_loginWindow(self)
         LoginPage.login(self, self.login_username, self.login_password)
 
         # 断言结果

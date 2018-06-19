@@ -7,18 +7,19 @@ from selenium import webdriver
 import os
 
 
-def browser(selecctBrowser):
-    if selecctBrowser ==1:
+def browser(selecct_Browser):
+    if selecct_Browser ==1:
         # start chrome public
-        chrome_driver = os.path.abspath("D:\Program Files\Python3\chromedriver.exe")
+        # 引入 chromedriver
+        chrome_driver = os.path.abspath("C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe")
         os.environ['webdriver.chrome.public'] = chrome_driver
-        driver = webdriver.Chrome(chrome_driver)
+        selecct_Browser = webdriver.Chrome(chrome_driver)
 
-    elif selecctBrowser==2:
+    elif selecct_Browser==2:
         # start firefox public
-        driver = webdriver.Firefox()
+        selecct_Browser = webdriver.Firefox()
 
-    return driver
+    return selecct_Browser
 
 if __name__ == '__main__':
-    dr = browser()
+    dr = browser(1)

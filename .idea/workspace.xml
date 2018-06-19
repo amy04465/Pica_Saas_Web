@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48732496-1b36-46b9-abd4-224673c14035" name="Default" comment="" />
+    <list default="true" id="48732496-1b36-46b9-abd4-224673c14035" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_obj/HomePage.py" afterPath="$PROJECT_DIR$/page_obj/HomePage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/Mytest.py" afterPath="$PROJECT_DIR$/public/Mytest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/browserDriver.py" afterPath="$PROJECT_DIR$/public/browserDriver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/geckodriver.log" afterPath="$PROJECT_DIR$/test_case/geckodriver.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_obj/loginPage.py" afterPath="$PROJECT_DIR$/page_obj/loginPage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_HomePage.py" afterPath="$PROJECT_DIR$/test_case/test_HomePage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_case/test_login.py" afterPath="$PROJECT_DIR$/test_case/test_login.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Pica_Saas_Web.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/page_obj/loginPage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+              <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
               <folding>
                 <element signature="e#69#80#0" expanded="true" />
               </folding>
@@ -33,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomePage.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomePage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_obj/HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.9150943">
+              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
               <folding>
                 <element signature="e#69#80#0" expanded="true" />
               </folding>
@@ -45,13 +55,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_HomePage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_HomePage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_HomePage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4121212">
-              <caret line="27" column="33" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
               <folding>
                 <element signature="e#69#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mytest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/Mytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+              <folding>
+                <element signature="e#53#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,19 +83,9 @@
         <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mytest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/Mytest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
-                <element signature="e#53#68#0" expanded="true" />
+                <element signature="e#67#107#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,6 +100,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -96,16 +111,17 @@
         <option value="$PROJECT_DIR$/all_HTMLtest.py" />
         <option value="$PROJECT_DIR$/test_case/test_login/test_HomePage.py" />
         <option value="$PROJECT_DIR$/test_case/test_demo.py" />
-        <option value="$PROJECT_DIR$/public/Mytest.py" />
         <option value="$PROJECT_DIR$/page_obj/base.py" />
         <option value="$PROJECT_DIR$/data/homePageKwywords.py" />
         <option value="$PROJECT_DIR$/data/publicKeywords.py" />
         <option value="$PROJECT_DIR$/test_case/test_HomePage/test_HomePage.py" />
         <option value="$PROJECT_DIR$/test_case/test_login/test_login.py" />
-        <option value="$PROJECT_DIR$/page_obj/loginPage.py" />
-        <option value="$PROJECT_DIR$/page_obj/HomePage.py" />
         <option value="$PROJECT_DIR$/test_case/test_login.py" />
+        <option value="$PROJECT_DIR$/page_obj/loginPage.py" />
+        <option value="$PROJECT_DIR$/public/Mytest.py" />
+        <option value="$PROJECT_DIR$/public/browserDriver.py" />
         <option value="$PROJECT_DIR$/test_case/test_HomePage.py" />
+        <option value="$PROJECT_DIR$/page_obj/HomePage.py" />
       </list>
     </option>
   </component>
@@ -134,7 +150,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -157,6 +173,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,16 +251,14 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -264,7 +280,7 @@
       <recent name="D:\Workspace\Pica_Saas_Web" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest HomePageTest.test_goPatientManage">
+  <component name="RunManager" selected="Python tests.Unittest HomePageTest.test_goStudyMenu">
     <configuration default="false" name="Unittest HomePageTest.test_Open_loginWindow" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -287,73 +303,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest loginTest.test_login (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pica_Saas_Web" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_login.py" />
-      <option name="CLASS_NAME" value="loginTest" />
-      <option name="METHOD_NAME" value="test_login" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in loginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pica_Saas_Web" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_login.py" />
-      <option name="CLASS_NAME" value="loginTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest loginTest.test_login (2)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="Pica_Saas_Web" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_login.py" />
-      <option name="CLASS_NAME" value="loginTest" />
-      <option name="METHOD_NAME" value="test_login" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittest HomePageTest.test_goPatientManage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest HomePageTest.test_Open_HomePage" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -365,7 +315,68 @@
       <module name="Pica_Saas_Web" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_HomePage.py" />
       <option name="CLASS_NAME" value="HomePageTest" />
-      <option name="METHOD_NAME" value="test_goPatientManage" />
+      <option name="METHOD_NAME" value="test_Open_HomePage" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest HomePageTest.test_goStudyMenu" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pica_Saas_Web" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_HomePage.py" />
+      <option name="CLASS_NAME" value="HomePageTest" />
+      <option name="METHOD_NAME" value="test_goStudyMenu" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="HomePage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_obj" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pica_Saas_Web" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page_obj/HomePage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest HomePageTest.test_goMedical" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Pica_Saas_Web" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_HomePage.py" />
+      <option name="CLASS_NAME" value="HomePageTest" />
+      <option name="METHOD_NAME" value="test_goMedical" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -499,18 +510,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_Open_loginWindow" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest loginTest.test_login (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in loginTest" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest loginTest.test_login (2)" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goPatientManage" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_Open_HomePage" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goStudyMenu" />
+      <item index="3" class="java.lang.String" itemvalue="Python.HomePage" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goMedical" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goPatientManage" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in loginTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest loginTest.test_login (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goStudyMenu" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_goMedical" />
+        <item index="2" class="java.lang.String" itemvalue="Python.HomePage" />
         <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_Open_loginWindow" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest loginTest.test_login (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest HomePageTest.test_Open_HomePage" />
       </list>
     </recent_temporary>
   </component>
@@ -528,18 +539,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24597365" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21083455" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44444445" sideWeight="0.11493412" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18035427" sideWeight="0.4941435" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11755233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44444445" sideWeight="0.8850659" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908913" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3277592" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -567,12 +578,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/page_obj/loginPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="e#69#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#69#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/browserDriver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="30" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -599,7 +650,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="62" column="14" selection-start-line="62" selection-start-column="14" selection-end-line="62" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -625,7 +678,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -652,7 +705,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -661,7 +716,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,7 +743,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -697,7 +754,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -724,7 +781,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,7 +792,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -760,7 +819,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +830,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -803,7 +864,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +875,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -839,7 +902,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -855,7 +920,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
-            <element signature="e#67#97#0" expanded="false" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -902,22 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/browserDriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="48" selection-start-line="12" selection-start-column="8" selection-end-line="14" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/publicKeywords.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42857143">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_obj/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3933162">
@@ -926,22 +975,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/publicKeywords.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/page_obj/loginPage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="78" selection-start-line="22" selection-start-column="78" selection-end-line="22" selection-end-column="78" />
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
           <folding>
             <element signature="e#69#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/Mytest.py">
+    <entry file="file://$PROJECT_DIR$/public/browserDriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.61323154">
+          <caret line="19" column="45" selection-start-line="18" selection-start-column="30" selection-end-line="19" selection-end-column="45" />
           <folding>
-            <element signature="e#53#68#0" expanded="true" />
+            <element signature="e#67#97#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -949,27 +1005,39 @@
     <entry file="file://$PROJECT_DIR$/test_case/test_login.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding />
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#67#107#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_obj/HomePage.py">
+    <entry file="file://$PROJECT_DIR$/public/Mytest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
           <folding>
-            <element signature="e#69#80#0" expanded="true" />
+            <element signature="e#53#68#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_case/test_HomePage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4121212">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="16" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
           <folding>
             <element signature="e#69#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_obj/HomePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9150943">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+          <folding>
+            <element signature="e#69#80#0" expanded="true" />
           </folding>
         </state>
       </provider>

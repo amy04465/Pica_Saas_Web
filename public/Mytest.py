@@ -13,8 +13,9 @@ class Mytest(unittest.TestCase):
     def setUp(self):
         # 前置条件
         # 1. 调用浏览器: 1=Google；2=Firefox
-        self.driver = browser(2)
+        self.driver = browser(1)
         self.driver.implicitly_wait(30)
+        self.driver.maximize_window()
         self.base_url = "https://test1.yunqueyi.com"
         self.verificationErrors = []
         self.accept_next_alert = True

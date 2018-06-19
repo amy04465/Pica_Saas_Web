@@ -39,11 +39,7 @@ class LoginPage(BasePage):
         self.driver.find_element(*LoginPage.submitButton_loc).click()
         time.sleep(2)
 
-    # 断言：获取当前url
-    # def get_currentUrl(self):
-    #     currentUrl = self.driver.current_url
-    #     print(u'断言>>>>>>>>>当前url ' + currentUrl)
-    #     return currentUrl
+
     #
     # # 断言：获取窗口title
     # def get_mixFromTitle(self):
