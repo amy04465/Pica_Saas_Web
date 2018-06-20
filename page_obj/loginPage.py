@@ -12,13 +12,11 @@ from page_obj.base import BasePage
 
 class LoginPage(BasePage):
     # 元素维护
-    # loginButton_loc = (By.XPATH, '//*[@id="login"]/li[1]/span')
     mixFromTitle_loc = (By.XPATH, '//div[@ class="modal-title"]')
     mixFrom_loc = (By.XPATH, '//div[@ class="modal-content"]')
     username_loc = (By.XPATH, '//form[@ name="mixForm"]/div/input[1]')
     password_loc = (By.XPATH, '//form[@ name="mixForm"]/div[3]/input[1]')
     submitButton_loc = (By.XPATH, '//form[@ name="mixForm"]/div[6]/button[1]')
-    # closeIcon_loc = (By.XPATH, '//*[@id = "loginClose"]')
     personalImgUrl_loc = (By.XPATH, '//*[@id="personalImgUrl"]')
     showPhoneError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[1]/span[2]')
     showPwdError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[3]/span[4]')
@@ -53,10 +51,10 @@ class LoginPage(BasePage):
 
     # 断言：登录成功
     def show_personalImgUrl(self):
-        self.driver.find_element(*LoginPage.personalImgUrl_loc).is_displayed
+        personalImgUrl= self.driver.find_element(*LoginPage.personalImgUrl_loc).is_displayed
         personalImgUrlSrc= self.driver.find_element(*LoginPage.personalImgUrl_loc).get_attribute("src")
         print(u'断言>>>>>>>>>用户登录成功，获取头像url：' + personalImgUrlSrc)
-        return True
+        return personalImgUrl
 
     # 断言：手机号输入框 提示信息
     def show_PhoneError(self):

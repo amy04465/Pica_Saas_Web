@@ -21,7 +21,7 @@ class HomePage(BasePage):
     studyDropMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/span/span')
     # 单个选项
     # studyDropMenuOptions_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
-    studyDropMenuOptions_loc = (By.XPATH, '//*[@ id="studyDropMenu"]/li')
+    studyDropMenuOptions_loc = (By.XPATH, '//*[@ id="studyDropMenu"]/li[3]/a')
 
     # 初始化
     def __int__(self, driver, base_url):
@@ -50,26 +50,20 @@ class HomePage(BasePage):
         # 主菜单
         studyDropMenu = self.driver.find_element(*HomePage.studyDropMenu_loc)
         ActionChains(self.driver).move_to_element(studyDropMenu).perform()
-        # studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
-        # studyDropMenuOptions.click()
         time.sleep(3)
 
-    def get_studyDropMenuOptions(self):
-        studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
-        print(studyDropMenuOptions)
-        return studyDropMenuOptions
+    # def get_studyDropMenuOptions(self):
+    #     studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
+    #     print(studyDropMenuOptions)
+    #     time.sleep(2)
+    #     return studyDropMenuOptions
 
     def go_studyDropMenuOptions(self):
         # 单个选项
-        # studyDropMenuOptions = self.driver.find_element(*HomePage.studyDropMenuOptions_loc)
-        # studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
-        # studyDropMenuOptions.click()
-        studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
-        studyDropMenuOptions.click()
+        self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
+        # all_studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc).click()
         # print(studyDropMenuOptions.text)
         time.sleep(3)
-        return studyDropMenuOptions
-
 
     # 打开登录窗口
     def open_loginWindow(self):
