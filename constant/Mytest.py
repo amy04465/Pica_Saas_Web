@@ -6,6 +6,7 @@ __author__ = amy liu
 
 import unittest
 from constant.browserDriver import browser
+from constant.constant import *
 
 
 # setUp() 和 tearDown() 为公共方法，分别作用与每个测试用例的开始和结束，可将其封装起来
@@ -13,10 +14,10 @@ class Mytest(unittest.TestCase):
     def setUp(self):
         # 前置条件
         # 1. 调用浏览器: 1=Google；2=Firefox
-        self.driver = browser(1)
+        self.driver = browser(2)
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
-        self.base_url = "https://test1.yunqueyi.com"
+        self.base_url = LOGIN_URL
         self.verificationErrors = []
         self.accept_next_alert = True
         print('test case start')

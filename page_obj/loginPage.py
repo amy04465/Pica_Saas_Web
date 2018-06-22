@@ -9,7 +9,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from encapsulation.base import BasePage
+from constant.base import BasePage
 
 
 class LoginPage(BasePage):

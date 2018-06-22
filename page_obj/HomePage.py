@@ -9,8 +9,7 @@ import time
 
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-
-from encapsulation.base import BasePage
+from constant.base import BasePage
 
 
 class HomePage(BasePage):
@@ -34,6 +33,7 @@ class HomePage(BasePage):
         print(u'打开首页url: ', self.base_url)
         self.driver.get(self.base_url)
         time.sleep(2)
+
 
     # 点击[患者管理]
     def goPatientManage(self):

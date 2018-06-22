@@ -7,25 +7,18 @@ import time
 import unittest
 from selenium import webdriver
 
+from page_obj.function import search
+
 
 class KeywordsSearch(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Firefox()
-        self.driver.maximize_window()
-        self.driver.get('https://www.baidu.com/')
+        print('pass')
 
     def test_KeywordsSearch(self):
-        self.driver.find_element_by_id('kw').send_keys(u'栗子')
-        self.driver.find_element_by_id('su').click()
-        time.sleep(2)
-        # 断言
-        self.assertIn(u'栗子', self.driver.title)
-        print('---- Test Passed ----')
-        print(self.driver.title + u'包含关键字[栗子]')
+        search('haowan')
 
     def tearDown(self):
-        self.driver.quit()
-
+        pass
 
 if __name__ == '__main__':
     unittest.main()

@@ -12,7 +12,6 @@ from log.log import Logger
 
 
 class BasePage(object):
-    logger = Logger()
 
     # 构造方法，用来接收selenium的driver对象
     def __init__(self, driver, base_url):
@@ -22,8 +21,6 @@ class BasePage(object):
     # 重写元素方法，确保元素是 可见的
     def find_element(self, *loc):
         try:
-            # 加入日志
-            self.logger.loginfo()
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
             return self.find_element(*loc)
         except:

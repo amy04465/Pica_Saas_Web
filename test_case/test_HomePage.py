@@ -4,9 +4,8 @@ __author__ = amy liu
 '''
 
 # coding = utf-8
-
+from constant.Mytest import Mytest
 from page_obj.HomePage import HomePage
-from public.Mytest import Mytest
 
 
 class HomePageTest(Mytest):

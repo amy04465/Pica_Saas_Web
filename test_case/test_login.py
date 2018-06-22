@@ -3,6 +3,7 @@ __data__ = 2017/8/22
 __author__ = amy liu
 '''
 # coding = utf-8
+from constant.Mytest import Mytest
 from page_obj.loginPage import LoginPage
 from test_case.test_HomePage import *
 

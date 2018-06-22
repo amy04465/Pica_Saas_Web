@@ -834,3 +834,55 @@ Unable to read VR Path Registry from C:\Users\Dell\AppData\Local\openvr\openvrpa
 1529397758703	Marionette	INFO	Listening on port 55580
 Unable to read VR Path Registry from C:\Users\Dell\AppData\Local\openvr\openvrpaths.vrpath
 1529397759406	Marionette	WARN	TLS certificate errors will be ignored for this session
+1529677391156	geckodriver	INFO	Listening on 127.0.0.1:49798
+1529677392147	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.smzyYHqgKRA2
+1529677392149	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677392180	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49807
+1529677392857	Marionette	INFO	Listening on port 49807
+1529677429802	geckodriver	INFO	Listening on 127.0.0.1:49871
+1529677430811	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.R6FMvOcJPJyI
+1529677430813	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677430819	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49880
+1529677431424	Marionette	INFO	Listening on port 49880
+1529677443212	geckodriver	INFO	Listening on 127.0.0.1:49944
+1529677444221	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.cf9zP2zpgb5K
+1529677444224	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677444230	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49953
+1529677444873	Marionette	INFO	Listening on port 49953
+1529677461963	geckodriver	INFO	Listening on 127.0.0.1:50021
+1529677462971	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.uyTH5Zf1BxWG
+1529677462973	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677462979	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50030
+1529677463584	Marionette	INFO	Listening on port 50030
+1529677478708	geckodriver	INFO	Listening on 127.0.0.1:50088
+1529677479716	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.R1rnTjAfkroj
+1529677479718	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677479725	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50097
+1529677480342	Marionette	INFO	Listening on port 50097
+1529677502486	geckodriver	INFO	Listening on 127.0.0.1:50159
+1529677503492	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.5CZR4HQR6Xy4
+1529677503494	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677503500	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50168
+1529677504117	Marionette	INFO	Listening on port 50168
+1529677570256	geckodriver	INFO	Listening on 127.0.0.1:50231
+1529677571267	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.UM8cxwcnQ4zX
+1529677571269	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677571275	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50237
+1529677571897	Marionette	INFO	Listening on port 50237
+1529677650552	geckodriver	INFO	Listening on 127.0.0.1:50318
+1529677650572	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.vHzvirxODgdv
+1529677650573	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677650578	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50325
+1529677651205	Marionette	INFO	Listening on port 50325
+1529677826708	geckodriver	INFO	Listening on 127.0.0.1:50357
+1529677826723	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.4WqMuAH0WiRk
+1529677826725	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529677826728	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50364
+1529677827389	Marionette	INFO	Listening on port 50364
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1529678187488	geckodriver	INFO	Listening on 127.0.0.1:50426
+1529678187510	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.VFL83xkYv44g
+1529678187511	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1529678187516	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50430
+1529678188257	Marionette	INFO	Listening on port 50430
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
