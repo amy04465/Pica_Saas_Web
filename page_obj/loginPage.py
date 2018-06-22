@@ -6,8 +6,10 @@ __author__ = amy liu
 # coding = utf-8
 
 import time
+
 from selenium.webdriver.common.by import By
-from page_obj.base import BasePage
+
+from encapsulation.base import BasePage
 
 
 class LoginPage(BasePage):

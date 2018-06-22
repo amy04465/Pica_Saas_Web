@@ -4,22 +4,26 @@ __author__ = amy liu
 '''
 
 # coding = utf-8
+# 封装部分维护在此
+
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from log.log import Logger
 
 
 class BasePage(object):
+    logger = Logger()
+
+    # 构造方法，用来接收selenium的driver对象
     def __init__(self, driver, base_url):
         self.driver = driver
         self.base_url = base_url
-        # self.driver.implicitly_wait(30)
-        # self.public.maximize_window()
-        # self.verificationErrors = []
-        # self.accept_next_alert = True
 
     # 重写元素方法，确保元素是 可见的
     def find_element(self, *loc):
         try:
+            # 加入日志
+            self.logger.loginfo()
             WebDriverWait(self.driver, 10).until(EC.visibility_of_element_located(loc))
             return self.find_element(*loc)
         except:

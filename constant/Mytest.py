@@ -2,10 +2,10 @@
 __data__ = 2017/11/17
 __author__ = amy liu
 '''
-
+# coding = utf-8
 
 import unittest
-from public.browserDriver import browser
+from constant.browserDriver import browser
 
 
 # setUp() 和 tearDown() 为公共方法，分别作用与每个测试用例的开始和结束，可将其封装起来
