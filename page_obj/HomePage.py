@@ -9,7 +9,7 @@ import time
 
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
-from constant.base import BasePage
+from congif.base import BasePage
 
 
 class HomePage(BasePage):
@@ -22,18 +22,18 @@ class HomePage(BasePage):
     studyDropMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/span/span')
     # 单个选项
     # studyDropMenuOptions_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
-    studyDropMenuOptions_loc = (By.XPATH, '//*[@ id="studyDropMenu"]/li[3]/a')
+    studyDropMenuOptions_loc = (By.XPATH, '//ul[@ id="studyDropMenu"]/li[3]/a')
 
     # 初始化
-    def __int__(self, driver, base_url):
-        BasePage.__init__(self, driver, base_url)
+    # def __int__(self):
+    #     BasePage.__init__(self)
 
     # 打开首页
+
     def goHomePage(self):
         print(u'打开首页url: ', self.base_url)
         self.driver.get(self.base_url)
         time.sleep(2)
-
 
     # 点击[患者管理]
     def goPatientManage(self):

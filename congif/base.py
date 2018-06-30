@@ -8,15 +8,18 @@ __author__ = amy liu
 
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from log.log import Logger
+from congif.Mytest import Mytest
+from congif.browserDriver import browser
+from congif.constant import LOGIN_URL
 
 
 class BasePage(object):
+    driver = Mytest.getDriver()
+    base_url = LOGIN_URL
 
     # 构造方法，用来接收selenium的driver对象
-    def __init__(self, driver, base_url):
-        self.driver = driver
-        self.base_url = base_url
+    # def __init__(self):
+    #     pass
 
     # 重写元素方法，确保元素是 可见的
     def find_element(self, *loc):
@@ -46,6 +49,6 @@ class BasePage(object):
 
     def click(self, loc):
         self.find_element(*loc).click()
-
-    def get_title(self):
-        return self.driver.title
+    #
+    # def get_title(self):
+    #     return self.driver.title

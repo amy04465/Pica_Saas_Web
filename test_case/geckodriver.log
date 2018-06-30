@@ -886,3 +886,5 @@ JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/stat
 1529678187516	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50430
 1529678188257	Marionette	INFO	Listening on port 50430
 JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+1530164674222	geckodriver	INFO	geckodriver 0.18.0
+1530164674232	geckodriver	INFO	Listening on 127.0.0.1:57951

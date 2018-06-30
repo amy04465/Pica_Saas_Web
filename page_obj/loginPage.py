@@ -9,7 +9,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
-from constant.base import BasePage
+from congif.base import BasePage
 
 
 class LoginPage(BasePage):
@@ -22,10 +22,6 @@ class LoginPage(BasePage):
     personalImgUrl_loc = (By.XPATH, '//*[@id="personalImgUrl"]')
     showPhoneError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[1]/span[2]')
     showPwdError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[3]/span[4]')
-
-    # 初始化
-    def __int__(self, driver, base_url):
-        BasePage.__init__(self, driver, base_url)
 
     # 输入用户名、密码
     def login(self, username, Password):

@@ -17,11 +17,11 @@ class DemoClass1:
 # 必须实例化
 obj = DemoClass1()
 
-# 通过 实例 来调用函数
+# 通过 类 来调用函数
 DemoClass1.classPrint(obj)
 DemoClass1.objPrint(obj)
 
-# 通过 类 来调用函数
+# 通过 实例 来调用函数
 obj.classPrint()
 obj.objPrint()
 
