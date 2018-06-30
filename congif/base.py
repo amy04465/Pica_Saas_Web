@@ -14,12 +14,12 @@ from congif.constant import LOGIN_URL
 
 
 class BasePage(object):
-    driver = Mytest.getDriver()
+    driver = Mytest.dr
     base_url = LOGIN_URL
 
     # 构造方法，用来接收selenium的driver对象
-    def __init__(self):
-        pass
+    # def __init__(self):
+    #     pass
 
     # 重写元素方法，确保元素是 可见的
     def find_element(self, *loc):
