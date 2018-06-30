@@ -11,7 +11,7 @@ from congif.constant import *
 
 # setUp() 和 tearDown() 为公共方法，分别作用与每个测试用例的开始和结束，可将其封装起来
 class Mytest(unittest.TestCase):
-    driver = browser(1)
+    driver = None
 
     def setUp(self):
         # 前置条件
@@ -20,7 +20,7 @@ class Mytest(unittest.TestCase):
         self.driver = Mytest.getDriver()
         self.driver.implicitly_wait(30)
         self.driver.maximize_window()
-        self.base_url = LOGIN_URL
+        #self.base_url = LOGIN_URL
         self.verificationErrors = []
         self.accept_next_alert = True
         print('test case start')
@@ -32,6 +32,5 @@ class Mytest(unittest.TestCase):
 
     @classmethod
     def getDriver(cls):
-        if cls.driver == None:
-            cls.driver = browser(1)
+        cls.driver = browser(2)
         return cls.driver
