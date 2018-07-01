@@ -26,20 +26,8 @@ class Mytest(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-
         cls.driver.quit()
         print('test case end')
-
-
-
-    #    try:
-    #         self.driver.refresh()
-    #         #将退出浏览器的操作变成刷新浏览器，用于不同用例之间的接洽操作
-    #      except ConnectionRefusedError as e:
-    #          print(e)
-    #      finally:
-    #         self.assertEqual([], self.verificationErrors)
-    #         print('test case end')
 
 
 
