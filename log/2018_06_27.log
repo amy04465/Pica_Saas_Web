@@ -1,0 +1,3 @@
+[2018-06-27 22:24:08,653] - log.py[line:39] - fuc:__console- INFO: ---测试开始----
+[2018-06-27 22:24:08,654] - log.py[line:39] - fuc:__console- INFO: 输入密码
+[2018-06-27 22:24:08,658] - log.py[line:43] - fuc:__console- WARNING: ----测试结束----
