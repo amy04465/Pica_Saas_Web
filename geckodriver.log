@@ -2466,3 +2466,29 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0
 1530545081099	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
 1530545081104	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50966
 1530545081727	Marionette	INFO	Listening on port 50966
+1530625849176	geckodriver	INFO	Listening on 127.0.0.1:49650
+1530625850185	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.9THbWRPoQvrA
+1530625850187	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530625850192	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49656
+1530625850820	Marionette	INFO	Listening on port 49656
+1530626067191	geckodriver	INFO	Listening on 127.0.0.1:49834
+1530626068204	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.nZASpsIXNDrK
+1530626068207	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530626068212	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49840
+1530626068820	Marionette	INFO	Listening on port 49840
+1530626111962	geckodriver	INFO	Listening on 127.0.0.1:49918
+1530626111995	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.p5zjhUlb1vLP
+1530626111997	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530626112002	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49922
+1530626112873	Marionette	INFO	Listening on port 49922
+1530628964772	geckodriver	INFO	Listening on 127.0.0.1:51234
+1530628965785	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.m3BHaNyoIQtj
+1530628965789	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530628965795	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51240
+1530628966421	Marionette	INFO	Listening on port 51240
+JavaScript error: chrome://global/content/backgroundPageThumbsContent.js, line 59: TypeError: docShell is null
+1530629472314	geckodriver	INFO	Listening on 127.0.0.1:51424
+1530629473326	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.9B5NJzRfE7GH
+1530629473327	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530629473332	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51430
+1530629474033	Marionette	INFO	Listening on port 51430

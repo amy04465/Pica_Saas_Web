@@ -16,43 +16,25 @@ class HomePageTest(Mytest):
     游客状态
     '''
 
-    # 游客状态
-    # 打开首页
-
     # 实例化
     homePage = HomePage()
 
-    def test_open_HomePage(self):
-        self.homePage.goHomePage()
-        self.assertIn("yunqueyi.com",self.homePage.get_currentUrl(), u'url地址错误')
-
-    def test_Open_loginWindow(self):
-        self.test_open_HomePage()
-        # 打开登录弹窗
-        self.homePage.open_loginWindow()
-        self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
-        # self.home_Page.close_loginWindow()
-
     def test_goPatientManage(self):
-        self.test_open_HomePage()
         # 点击[健康管理]
         self.homePage.goPatientManage()
         self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
         # self.home_Page.close_loginWindow()
 
     def test_goMedical(self):
-        self.test_open_HomePage()
         # 点击[诊疗助手]
         self.homePage.goMedical()
         self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
         # self.home_Page.close_loginWindow()
 
-    # def test_goStudyMenu(self):
-    #     self.test_open_HomePage()
-    #     # 点击[一站式培训]
-    #     self.homePage.goStudyMenu()
-    #     self.homePage.go_studyDropMenuOptions()
-    #     self.assertIn('pica_study.html', self.homePage.get_currentUrl(), u'跳转链接错误')
+    def test_goStudyMenu(self):
+        # 点击[一站式培训]
+        self.homePage.goStudyMenu()
+        self.assertIn('pica_study.html', self.homePage.get_currentUrl(), u'跳转链接错误')
 
         # 循环点击[一站式培训]下拉选择项
         # HomePage.goStudyMenu(self)
