@@ -13,15 +13,14 @@ class loginTest(Mytest):
     '''
     登录测试用例
     '''
+    homePageTest = HomePageTest()
+    loginPage = LoginPage()
 
     def test_login(self):
         # 调用 打开登录窗口'test_Open_loginWindow()'
-        homePageTest = HomePageTest()
-        homePageTest.test_Open_loginWindow()
-
-        loginPage = LoginPage()
-        loginPage.login(LOGIN_USERNAME, LOGIN_PASSWORD)
-        self.assertTrue(loginPage.show_personalImgUrl(), "用户登录失败")
+        self.homePageTest.test_Open_loginWindow()
+        self.loginPage.login(LOGIN_USERNAME, LOGIN_PASSWORD)
+        self.assertTrue(self.loginPage.show_personalImgUrl(), "用户登录失败")
 
 
 

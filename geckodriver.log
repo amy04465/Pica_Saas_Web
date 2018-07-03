@@ -2456,3 +2456,13 @@ JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E6%A0
 1530458505908	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
 1530458505913	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53069
 1530458506720	Marionette	INFO	Listening on port 53069
+1530544750171	geckodriver	INFO	Listening on 127.0.0.1:50566
+1530544751180	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.g18MUevezlHj
+1530544751182	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530544751187	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50572
+1530544751807	Marionette	INFO	Listening on port 50572
+1530545080084	geckodriver	INFO	Listening on 127.0.0.1:50960
+1530545081096	mozprofile::profile	INFO	Using profile path /var/folders/dn/xy064sc95rnc43sxncxggc_40000gn/T/rust_mozprofile.5kkopS7Hlz4R
+1530545081099	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1530545081104	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50966
+1530545081727	Marionette	INFO	Listening on port 50966
