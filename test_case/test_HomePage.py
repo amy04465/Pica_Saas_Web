@@ -32,10 +32,10 @@ class HomePageTest(Mytest):
         self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
         # self.home_Page.close_loginWindow()
 
-    def test_goStudyMenu(self):
-        # 点击[一站式培训]
-        self.homePage.goStudyMenu()
-        self.assertIn('pica_study.html', self.homePage.get_currentUrl(), u'跳转链接错误')
+    # def test_goStudyMenu(self):
+    #     # 点击[一站式培训]
+    #     self.homePage.goStudyMenu()
+    #     self.assertIn('pica_study.html', self.homePage.get_currentUrl(), u'跳转链接错误')
 
         # 循环点击[一站式培训]下拉选择项
         # HomePage.goStudyMenu(self)

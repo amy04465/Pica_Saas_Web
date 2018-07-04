@@ -14,6 +14,8 @@ from congif.base import BasePage
 
 class LoginPage(BasePage):
     # 元素维护
+    loginButton_loc = (By.XPATH, '//*[@id="login"]/li[1]/span')
+    loginDialog_loc = (By.XPATH,'//div[@ class="modal-content"]')
     mixFromTitle_loc = (By.XPATH, '//div[@ class="modal-title"]')
     mixFrom_loc = (By.XPATH, '//div[@ class="modal-content"]')
     username_loc = (By.XPATH, '//form[@ name="mixForm"]/div/input[1]')
@@ -22,6 +24,12 @@ class LoginPage(BasePage):
     personalImgUrl_loc = (By.XPATH, '//*[@id="personalImgUrl"]')
     showPhoneError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[1]/span[2]')
     showPwdError_loc = (By.XPATH, '//form[@ name="mixForm"]/div[3]/span[4]')
+
+    # 打开登录窗口
+    def open_loginWindow(self):
+        print(u"打开登录窗口")
+        self.driver.find_element(*LoginPage.loginButton_loc).click()
+        time.sleep(3)
 
     # 输入用户名、密码
     def login(self, username, Password):
@@ -36,12 +44,12 @@ class LoginPage(BasePage):
         time.sleep(2)
 
 
-    #
-    # # 断言：获取窗口title
-    # def get_mixFromTitle(self):
-    #     mixFromTitle= self.driver.find_element(*LoginPage.mixFromTitle_loc).text
-    #     print(u'断言>>>>>>>>>当前窗口title ' + mixFromTitle)
-    #     return mixFromTitle
+
+    # 断言：获取窗口title
+    def show_loginDialogTitle(self):
+        mixFromTitle= self.driver.find_element(*LoginPage.mixFromTitle_loc).text
+        print(u'断言>>>>>>>>>当前窗口title ' + mixFromTitle)
+        return mixFromTitle
 
     # # 断言：弹窗消失
     # def loginWindow_closed(self):

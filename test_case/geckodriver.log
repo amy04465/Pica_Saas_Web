@@ -1532,3 +1532,5 @@ JavaScript error: https://test1.yunqueyi.com/js/saas/pica_index.js, line 522: Ty
 1530631699258	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
 1530631699263	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52646
 1530631699903	Marionette	INFO	Listening on port 52646
+1530698005749	geckodriver	INFO	geckodriver 0.18.0
+1530698005757	geckodriver	INFO	Listening on 127.0.0.1:55075

@@ -5,9 +5,8 @@ __author__ = amy liu
 # coding = utf-8
 
 import unittest
-from congif.browserDriver import browser
 from congif.constant import *
-
+from congif.browserDriver import browser
 
 # setUp() 和 tearDown() 为公共方法，分别作用与每个测试用例的开始和结束，可将其封装起来
 class Mytest(unittest.TestCase):
@@ -16,11 +15,11 @@ class Mytest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        #driver = browser(1)
         cls.driver.implicitly_wait(30)
         cls.driver.maximize_window()
         cls.driver.verificationErrors = []
         cls.driver.accept_next_alert = True
+        cls.driver.get(LOGIN_URL)
         print('test case start')
 
     @classmethod
