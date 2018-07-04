@@ -18,21 +18,11 @@ class HomePage(BasePage):
     loginButton_loc = (By.XPATH, '//*[@id="login"]/li[1]/span')
     loginDialog_loc = (By.XPATH,'//div[@ class="modal-content"]')
     closeIcon_loc = (By.XPATH, '//*[@id = "loginClose"]')
-    studyDropMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/span/span')
+    studyDropMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/span')
     # 单个选项
     # studyDropMenuOptions_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
     studyDropMenuOptions_loc = (By.XPATH, '//ul[@ id="studyDropMenu"]/li[3]/a')
-
-    # 初始化
-    # def __int__(self):
-    #     BasePage.__init__(self)
-
-    # 打开首页
-
-    def goHomePage(self):
-        print(u'打开首页url: ', self.base_url)
-        self.driver.get(self.base_url)
-        time.sleep(2)
+    # studyDropMenuOptions_loc = (By.LINK_TEXT, u'微专业')
 
     # 点击[患者管理]
     def goPatientManage(self):
@@ -43,7 +33,7 @@ class HomePage(BasePage):
     # 点击[诊疗助手]
     def goMedical(self):
         print(u'点击[诊疗助手]')
-        self.driver.find_element(*HomePage.medical_loc).click()
+        self.driver.find_element(*HomePage.medical_loc)
         time.sleep(2)
 
     def goStudyMenu(self):
@@ -51,6 +41,8 @@ class HomePage(BasePage):
         # 主菜单
         studyDropMenu = self.driver.find_element(*HomePage.studyDropMenu_loc)
         ActionChains(self.driver).move_to_element(studyDropMenu).perform()
+        time.sleep(4)
+        self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
         time.sleep(3)
 
     # def get_studyDropMenuOptions(self):
@@ -59,18 +51,12 @@ class HomePage(BasePage):
     #     time.sleep(2)
     #     return studyDropMenuOptions
 
-    def go_studyDropMenuOptions(self):
-        # 单个选项
-        self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
-        # all_studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc).click()
-        # print(studyDropMenuOptions.text)
-        time.sleep(3)
-
-    # 打开登录窗口
-    def open_loginWindow(self):
-        print(u'打开登录窗口')
-        self.driver.find_element(*HomePage.loginButton_loc).click()
-        time.sleep(2)
+    # def go_studyDropMenuOptions(self):
+    #     # 单个选项
+    #     self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
+    #     # all_studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc).click()
+    #     # print(studyDropMenuOptions.text)
+    #     time.sleep(3)
 
     # 关闭登录弹窗
     def close_loginWindow(self):

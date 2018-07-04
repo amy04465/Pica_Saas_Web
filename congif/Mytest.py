@@ -15,21 +15,24 @@ class Mytest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        #cls.driver = Mytest.getDriver()
-        #cls.driver = browser(2)
+        cls.driver.get(LOGIN_URL)
         cls.driver.implicitly_wait(30)
         cls.driver.maximize_window()
-        cls.driver.base_url = LOGIN_URL
         cls.driver.verificationErrors = []
         cls.driver.accept_next_alert = True
         print('test case start')
+        # if cls.driver is None:
+        #     cls.driver = browser(2)
 
     @classmethod
     def tearDownClass(cls):
         cls.driver.quit()
         print('test case end')
-
-
+    #     if cls.driver:
+    #         cls.driver.quit()
+    #     cls.driver = None
+    #
+    # #
 
     # dr = browser(2)
     #
@@ -57,4 +60,4 @@ class Mytest(unittest.TestCase):
     #      finally:
     #         self.assertEqual([], self.verificationErrors)
     #         print('test case end')
-
+    #
