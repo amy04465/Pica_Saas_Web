@@ -4,6 +4,7 @@ __author__ = amy liu
 '''
 
 # coding = utf-8
+import unittest
 from congif.Mytest import Mytest
 from page_obj.HomePage import HomePage
 from congif.constant import *
@@ -48,7 +49,8 @@ class HomePageTest(Mytest):
 
 
 
-
+if __name__ == "__main__":
+    unittest.main()
 
 
 
