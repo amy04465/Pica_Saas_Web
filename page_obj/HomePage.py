@@ -18,11 +18,8 @@ class HomePage(BasePage):
     loginButton_loc = (By.XPATH, '//*[@id="login"]/li[1]/span')
     loginDialog_loc = (By.XPATH,'//div[@ class="modal-content"]')
     closeIcon_loc = (By.XPATH, '//*[@id = "loginClose"]')
-    studyDropMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/span')
-    # 单个选项
-    # studyDropMenuOptions_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
-    studyDropMenuOptions_loc = (By.XPATH, '//ul[@ id="studyDropMenu"]/li[3]/a')
-    # studyDropMenuOptions_loc = (By.LINK_TEXT, u'微专业')
+    studyDropMenu_loc = (By.XPATH, './/span[text()="一站培训"]')
+    studyMenu_loc = (By.XPATH, './/a[text()="微专业"]')
 
     # 点击[患者管理]
     def goPatientManage(self):
@@ -42,7 +39,7 @@ class HomePage(BasePage):
         studyDropMenu = self.driver.find_element(*HomePage.studyDropMenu_loc)
         ActionChains(self.driver).move_to_element(studyDropMenu).perform()
         time.sleep(4)
-        self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
+        self.driver.find_element(*HomePage.studyMenu_loc).click()
         time.sleep(3)
 
     # def get_studyDropMenuOptions(self):
@@ -50,13 +47,6 @@ class HomePage(BasePage):
     #     print(studyDropMenuOptions)
     #     time.sleep(2)
     #     return studyDropMenuOptions
-
-    # def go_studyDropMenuOptions(self):
-    #     # 单个选项
-    #     self.driver.find_element(*HomePage.studyDropMenuOptions_loc).click()
-    #     # all_studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc).click()
-    #     # print(studyDropMenuOptions.text)
-    #     time.sleep(3)
 
     # 关闭登录弹窗
     def close_loginWindow(self):

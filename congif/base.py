@@ -14,7 +14,7 @@ from congif.constant import *
 
 class BasePage(object):
     driver = Mytest.driver
-    #base_url = LOGIN_URL
+    # base_url = LOGIN_URL
 
     # # 构造方法，用来接收selenium的driver对象
     # def __init__(self):

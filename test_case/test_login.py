@@ -13,6 +13,7 @@ class loginTest(Mytest):
     登录测试用例
     '''
     loginPage = LoginPage()
+
     def test_login(self):
 
         self.loginPage.open_loginWindow()
