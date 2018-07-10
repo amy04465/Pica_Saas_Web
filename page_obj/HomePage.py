@@ -60,7 +60,6 @@ class HomePage(BasePage):
         return assert_loginDialog
 
     # 断言：获取当前url
-    # currentUrl = ''
     def get_currentUrl(self):
         global currentUrl
         currentUrl = self.driver.current_url

@@ -51,6 +51,6 @@ class BasePage(object):
 
     def click(self, loc):
         self.find_element(*loc).click()
-    #
-    # def get_title(self):
-    #     return self.driver.title
+
+    def get_title(self):
+        return self.driver.title
