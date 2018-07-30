@@ -23,28 +23,30 @@ class HomePageTest(Mytest):
         # 点击[健康管理]
         self.homePage.goPatientManage()
         self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
-        # self.home_Page.close_loginWindow()
+        self.homePage.close_loginWindow()
 
     def test_goMedical(self):
         # 点击[诊疗助手]
         self.homePage.goMedical()
         self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
-        # self.home_Page.close_loginWindow()
+        self.homePage.close_loginWindow()
 
     def test_goStudyMenu(self):
         # 点击[一站式培训]
         self.homePage.goStudyMenu()
         self.assertIn('pica_study.html', self.homePage.get_currentUrl(), u'跳转链接错误')
 
-        # 循环点击[一站式培训]下拉选择项
-        # HomePage.goStudyMenu(self)
-        # all_studyDropMenuOptions = HomePage.get_studyDropMenuOptions(self)
-        # for studyDropMenuOption in all_studyDropMenuOptions:
-        #     if len(all_studyDropMenuOptions) == 0:
-        #      self.assertTrue(False, msg=u'无下拉选项')
-        #     else:
-        #      HomePage.go_studyDropMenuOptions(self)
-        #      print(u'循环下拉选择项：'+ studyDropMenuOption.text)
+    def test_goPatientEdu(self):
+        # 点击[健康漫画]
+        self.homePage.goPatientEdu()
+        self.assertIn('/pica_patient_edu.html', self.homePage.get_currentUrl(), u'跳转链接错误' )
+
+    def test_goAboutUs(self):
+        # 点击[关于云鹊医]
+        self.homePage.goAboutUs()
+        self.assertIn('pica_about_us.html', self.homePage.get_currentUrl(), u'跳转链接错误')
+
+
 
 
 if __name__ == "__main__":

@@ -12,25 +12,32 @@ from congif.base import BasePage
 
 
 class HomePage(BasePage):
-    # 元素维护
-    PatientManage_loc = (By.LINK_TEXT, u'健康管理')
+    # 菜单栏
+    studyDropMenu_loc = (By.XPATH, './/span[text()="一站培训"]')
+    studyMenu_loc = (By.XPATH, './/a[text()="微专业"]')
+    #studyMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
+
+    patientManage_loc = (By.LINK_TEXT, u'健康管理')
+    patientEdu_loc = (By.XPATH, './/a[text()="健康漫画"]')
     medical_loc = (By.LINK_TEXT, u'诊疗助手')
+    aboutUs_loc = (By.XPATH, './/a[text()="关于云鹊医"]')
+    # 登录/注册弹窗
     loginButton_loc = (By.XPATH, '//*[@id="login"]/li[1]/span')
     loginDialog_loc = (By.XPATH,'//div[@ class="modal-content"]')
     closeIcon_loc = (By.XPATH, '//*[@id = "loginClose"]')
-    studyDropMenu_loc = (By.XPATH, './/span[text()="一站培训"]')
-    studyMenu_loc = (By.XPATH, './/a[text()="微专业"]')
+
+
 
     # 点击[患者管理]
     def goPatientManage(self):
         print(u'点击[健康管理]')
-        self.driver.find_element(*HomePage.PatientManage_loc).click()
+        self.driver.find_element(*HomePage.patientManage_loc).click()
         time.sleep(2)
 
     # 点击[诊疗助手]
     def goMedical(self):
         print(u'点击[诊疗助手]')
-        self.driver.find_element(*HomePage.medical_loc)
+        self.driver.find_element(*HomePage.medical_loc).click()
         time.sleep(2)
 
     def goStudyMenu(self):
@@ -42,11 +49,15 @@ class HomePage(BasePage):
         self.driver.find_element(*HomePage.studyMenu_loc).click()
         time.sleep(3)
 
-    # def get_studyDropMenuOptions(self):
-    #     studyDropMenuOptions = self.driver.find_elements(*HomePage.studyDropMenuOptions_loc)
-    #     print(studyDropMenuOptions)
-    #     time.sleep(2)
-    #     return studyDropMenuOptions
+    def goPatientEdu(self):
+        print(u'点击[健康漫画]')
+        self.driver.find_element(*HomePage.patientEdu_loc).click()
+        time.sleep(3)
+
+    def goAboutUs(self):
+        print(u'点击[关于云鹊医]')
+        self.driver.find_element(*HomePage.aboutUs_loc).click()
+        time.sleep(3)
 
     # 关闭登录弹窗
     def close_loginWindow(self):
@@ -54,7 +65,8 @@ class HomePage(BasePage):
         self.driver.find_element(*HomePage.closeIcon_loc).click()
         time.sleep(2)
 
-    # 断言
+
+    # 断言：显示登录弹窗
     def assert_show_loginWindow(self):
         assert_loginDialog =self.driver.find_element(*HomePage.loginDialog_loc).is_displayed
         return assert_loginDialog

@@ -22,7 +22,7 @@ conn = pymysql.connect(
 cursor = conn.cursor()
 
 
-def do_mysql(sql, db):
+def getMobileCode (sql, db):
     try:
         conn.select_db(db)
         cursor.execute(sql)
@@ -31,14 +31,15 @@ def do_mysql(sql, db):
         print(str(result))
 
         # 截取验证码
-        # mobileContent = re.findall(r"\d{6}", str(result))
-        # mobileCode = mobileContent[0]
-        # if (len(mobileContent) == 0):
-        #     print('')
-        # else:
-        #     print('验证码：'+ mobileCode)
+        mobileContent = re.findall(r"\d{6}", str(result))
+        mobileCode = mobileContent[0]
+        if (len(mobileContent) == 0):
+            print('')
+        else:
+            print('验证码：'+ mobileCode)
 
         print('--------------执行完毕-----------------')
+        return mobileCode
 
     except Exception as e:
         print(repr(e))
@@ -47,17 +48,17 @@ def do_mysql(sql, db):
     cursor.close()
     conn.close()
 
-def get_mobileCode():
-        # 截取验证码
-
-        mobileContent = re.findall(r"\d{6}", do_mysql(re))
-        mobileCode = mobileContent[0]
-        if (len(mobileContent) == 0):
-            print('')
-        else:
-            print('验证码：'+ mobileCode)
+# def get_mobileCode():
+#         # 截取验证码
+#
+#         mobileContent = re.findall(r"\d{6}", do_mysql(re))
+#         mobileCode = mobileContent[0]
+#         if (len(mobileContent) == 0):
+#             print('')
+#         else:
+#             print('验证码：'+ mobileCode)
 
 if __name__ == "__main__":
     # 调用 do_mysql() 方法
-    do_mysql("SELECT content FROM `p_mobile_send_log` where mobile = '18016311461' ORDER BY id DESC LIMIT 1 ",
+    getMobileCode("SELECT content FROM `p_mobile_send_log` where mobile = '18016311461' ORDER BY id DESC LIMIT 1 ",
              'pica')
