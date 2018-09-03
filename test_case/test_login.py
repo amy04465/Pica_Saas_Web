@@ -25,4 +25,4 @@ class loginTest(Mytest):
         # self.assertIn(u'登录', self.loginPage.show_loginDiaTitle())
         self.open_loginDialog()
         self.loginPage.login(LOGIN_USERNAME, LOGIN_PASSWORD)
-        self.assertTrue(self.loginPage.show_personalImgUrl(), "用户登录失败")
+        self.assertIsNotNone(self.loginPage.show_personalImgUrl(), "用户登录失败")

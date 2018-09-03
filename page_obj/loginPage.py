@@ -113,19 +113,17 @@ class LoginPage(BasePage):
         print(u'断言>>>>>>>>>获取验证码错误提示语： ' + codeError)
         return codeError
 
-
-
-    # # 断言：弹窗消失
+    # 断言：弹窗消失
     # def loginWindow_closed(self):
     #     self.driver.find_element(*LoginPage.mixFrom_loc).is_displayed
     #     return True
 
     # 断言：登录成功
     def show_personalImgUrl(self):
-        personalImgUrl= self.driver.find_element(*LoginPage.personalImgUrl_loc).is_displayed
+        # personalImgUrl= self.driver.find_element(*LoginPage.personalImgUrl_loc).is_displayed
         personalImgUrlSrc= self.driver.find_element(*LoginPage.personalImgUrl_loc).get_attribute("src")
-        print(u'断言>>>>>>>>>用户登录成功，获取头像url：' + personalImgUrlSrc)
-        return personalImgUrl
+        print(u'断言>>>>>>>>>用户登录成功，获取头像url：' + str(personalImgUrlSrc))
+        # return personalImgUrl
 
     # 断言：手机号输入框 提示信息
     def show_PhoneError(self):
