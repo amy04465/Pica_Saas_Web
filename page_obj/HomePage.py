@@ -13,6 +13,7 @@ from congif.base import BasePage
 
 class HomePage(BasePage):
     # 菜单栏
+    homePage_loc = (By.XPATH, './/span[text()="首页"]')
     studyDropMenu_loc = (By.XPATH, './/span[text()="一站培训"]')
     studyMenu_loc = (By.XPATH, './/a[text()="微专业"]')
     # studyMenu_loc = (By.XPATH, '//div[1]/div[1]/div/div/div[2]/ul/li[2]/ul/li[3]/a')
@@ -30,6 +31,11 @@ class HomePage(BasePage):
     mainProjectLeft_loc = (By.XPATH, '//*[@id="myCarousel-major"]/div/div/div[2]/img')
     mainProjectRight_loc = (By.XPATH, '//*[@id="myCarousel-major"]/div/div/div[3]/img')
 
+    # 回到首页
+    def goHomePage(self):
+        print(u'回到首页')
+        self.driver.find_element(*HomePage.homePage_loc).click()
+        time.sleep(3)
 
     # 点击[患者管理]
     def goPatientManage(self):
@@ -68,14 +74,6 @@ class HomePage(BasePage):
         self.driver.find_element(*HomePage.closeIcon_loc).click()
         time.sleep(2)
 
-    # 轮播图
-    # def clickCarouselImg(self):
-    #     print(u'循环点击轮播图')
-    #     carouselImg = self.driver.find_elements(*HomePage.carouselImg_loc).click()
-    #     print(carouselImg.text)
-    #     time.sleep(8)
-    #     return carouselImg
-
     # 重点项目
     def goMainProjectLeft(self):
         print(u'点击重点项目-- 高血压办公室')
@@ -86,8 +84,6 @@ class HomePage(BasePage):
         print(u'点击重点项目-- 高危筛查')
         self.driver.find_element(*HomePage.mainProjectRight_loc).click()
         time.sleep(3)
-
-
 
     # 断言：显示登录弹窗
     def assert_show_loginWindow(self):
