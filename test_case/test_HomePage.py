@@ -62,6 +62,7 @@ class HomePageTest(Mytest):
             self.driver.switch_to_window(window_current)
             self.homePage.goMainProjectRight()
             self.assertTrue(self.homePage.assert_show_loginWindow(), u'登录窗口未弹出')
+            self.homePage.close_loginWindow()
 
 
 
