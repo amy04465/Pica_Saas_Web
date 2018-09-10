@@ -123,7 +123,7 @@ class LoginPage(BasePage):
         # personalImgUrl= self.driver.find_element(*LoginPage.personalImgUrl_loc).is_displayed
         personalImgUrlSrc= self.driver.find_element(*LoginPage.personalImgUrl_loc).get_attribute("src")
         print(u'断言>>>>>>>>>用户登录成功，获取头像url：' + str(personalImgUrlSrc))
-        # return personalImgUrl
+        return personalImgUrlSrc
 
     # 断言：手机号输入框 提示信息
     def show_PhoneError(self):

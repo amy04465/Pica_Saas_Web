@@ -9,7 +9,11 @@ LOGIN_URL = "https://test1.yunqueyi.com"
 
 # 用户名/密码
 LOGIN_USERNAME = '13166088360'
-LOGIN_PASSWORD = 'aaa111'
+LOGIN_PASSWORD = '@amy0327'
+
+# 添加居民
+addPatient_PHONE = '13166088360'
+addPatient_NAME = u'test添加用户'
 
 # 重置密码
 RESET_PHONE = '18016311461'

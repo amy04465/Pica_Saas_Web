@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../ApiTest_Web/.idea/ApiTest_Web.iml" filepath="$PROJECT_DIR$/../ApiTest_Web/.idea/ApiTest_Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ApiTest_Web/.idea/InterfaceTest_Web.iml" filepath="$PROJECT_DIR$/../ApiTest_Web/.idea/InterfaceTest_Web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Pica_Saas_Web.iml" filepath="$PROJECT_DIR$/.idea/Pica_Saas_Web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/Workspace.iml" filepath="$PROJECT_DIR$/../.idea/Workspace.iml" />
     </modules>
   </component>
 </project>
