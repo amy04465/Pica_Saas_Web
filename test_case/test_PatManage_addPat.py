@@ -31,8 +31,7 @@ class PatientManagePageTest(Mytest):
         # 点击【健康管理】
         self.homePage.goPatientManage()
 
-    # 添加已存在的患者
-    def test_addPatient_existed(self):
+    def test_addPatient(self):
         all_inputPhone = addPatient_PHONE
         for inputPhone in all_inputPhone:
             self.patientManagePage.addPat_btn()
