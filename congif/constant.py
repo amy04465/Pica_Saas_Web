@@ -12,8 +12,12 @@ LOGIN_USERNAME = '13166088360'
 LOGIN_PASSWORD = '@amy0327'
 
 # 添加居民
-addPatient_PHONE = '13166088360'
-addPatient_NAME = u'test添加用户'
+
+addPatient_PHONE = ['13166088360',
+                    '13166088367',
+                    '13166088368'
+                    ]
+addPatient_NAME = u'自动化添加用户'
 
 # 重置密码
 RESET_PHONE = '18016311461'
